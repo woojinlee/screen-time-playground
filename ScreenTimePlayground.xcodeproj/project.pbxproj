@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F19EAF502BA29A8F00C34437 /* ScreenTimePlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19EAF4F2BA29A8F00C34437 /* ScreenTimePlaygroundApp.swift */; };
+		F19EAF522BA29A8F00C34437 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19EAF512BA29A8F00C34437 /* ContentView.swift */; };
+		F19EAF542BA29A9000C34437 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F19EAF532BA29A9000C34437 /* Assets.xcassets */; };
+		F19EAF572BA29A9000C34437 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F19EAF562BA29A9000C34437 /* Preview Assets.xcassets */; };
+		F19EAF612BA29A9000C34437 /* ScreenTimePlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19EAF602BA29A9000C34437 /* ScreenTimePlaygroundTests.swift */; };
+		F19EAF6B2BA29A9000C34437 /* ScreenTimePlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19EAF6A2BA29A9000C34437 /* ScreenTimePlaygroundUITests.swift */; };
+		F19EAF6D2BA29A9000C34437 /* ScreenTimePlaygroundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19EAF6C2BA29A9000C34437 /* ScreenTimePlaygroundUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F19EAF5D2BA29A9000C34437 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F19EAF442BA29A8F00C34437 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F19EAF4B2BA29A8F00C34437;
+			remoteInfo = ScreenTimePlayground;
+		};
+		F19EAF672BA29A9000C34437 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F19EAF442BA29A8F00C34437 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F19EAF4B2BA29A8F00C34437;
+			remoteInfo = ScreenTimePlayground;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F19EAF4C2BA29A8F00C34437 /* ScreenTimePlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenTimePlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F19EAF4F2BA29A8F00C34437 /* ScreenTimePlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTimePlaygroundApp.swift; sourceTree = "<group>"; };
+		F19EAF512BA29A8F00C34437 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F19EAF532BA29A9000C34437 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F19EAF562BA29A9000C34437 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F19EAF5C2BA29A9000C34437 /* ScreenTimePlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenTimePlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F19EAF602BA29A9000C34437 /* ScreenTimePlaygroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTimePlaygroundTests.swift; sourceTree = "<group>"; };
+		F19EAF662BA29A9000C34437 /* ScreenTimePlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenTimePlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F19EAF6A2BA29A9000C34437 /* ScreenTimePlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTimePlaygroundUITests.swift; sourceTree = "<group>"; };
+		F19EAF6C2BA29A9000C34437 /* ScreenTimePlaygroundUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTimePlaygroundUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F19EAF492BA29A8F00C34437 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19EAF592BA29A9000C34437 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19EAF632BA29A9000C34437 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F19EAF432BA29A8F00C34437 = {
+			isa = PBXGroup;
+			children = (
+				F19EAF4E2BA29A8F00C34437 /* ScreenTimePlayground */,
+				F19EAF5F2BA29A9000C34437 /* ScreenTimePlaygroundTests */,
+				F19EAF692BA29A9000C34437 /* ScreenTimePlaygroundUITests */,
+				F19EAF4D2BA29A8F00C34437 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F19EAF4D2BA29A8F00C34437 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F19EAF4C2BA29A8F00C34437 /* ScreenTimePlayground.app */,
+				F19EAF5C2BA29A9000C34437 /* ScreenTimePlaygroundTests.xctest */,
+				F19EAF662BA29A9000C34437 /* ScreenTimePlaygroundUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F19EAF4E2BA29A8F00C34437 /* ScreenTimePlayground */ = {
+			isa = PBXGroup;
+			children = (
+				F19EAF4F2BA29A8F00C34437 /* ScreenTimePlaygroundApp.swift */,
+				F19EAF512BA29A8F00C34437 /* ContentView.swift */,
+				F19EAF532BA29A9000C34437 /* Assets.xcassets */,
+				F19EAF552BA29A9000C34437 /* Preview Content */,
+			);
+			path = ScreenTimePlayground;
+			sourceTree = "<group>";
+		};
+		F19EAF552BA29A9000C34437 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F19EAF562BA29A9000C34437 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F19EAF5F2BA29A9000C34437 /* ScreenTimePlaygroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				F19EAF602BA29A9000C34437 /* ScreenTimePlaygroundTests.swift */,
+			);
+			path = ScreenTimePlaygroundTests;
+			sourceTree = "<group>";
+		};
+		F19EAF692BA29A9000C34437 /* ScreenTimePlaygroundUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F19EAF6A2BA29A9000C34437 /* ScreenTimePlaygroundUITests.swift */,
+				F19EAF6C2BA29A9000C34437 /* ScreenTimePlaygroundUITestsLaunchTests.swift */,
+			);
+			path = ScreenTimePlaygroundUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F19EAF4B2BA29A8F00C34437 /* ScreenTimePlayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F19EAF702BA29A9000C34437 /* Build configuration list for PBXNativeTarget "ScreenTimePlayground" */;
+			buildPhases = (
+				F19EAF482BA29A8F00C34437 /* Sources */,
+				F19EAF492BA29A8F00C34437 /* Frameworks */,
+				F19EAF4A2BA29A8F00C34437 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenTimePlayground;
+			productName = ScreenTimePlayground;
+			productReference = F19EAF4C2BA29A8F00C34437 /* ScreenTimePlayground.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F19EAF5B2BA29A9000C34437 /* ScreenTimePlaygroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F19EAF732BA29A9000C34437 /* Build configuration list for PBXNativeTarget "ScreenTimePlaygroundTests" */;
+			buildPhases = (
+				F19EAF582BA29A9000C34437 /* Sources */,
+				F19EAF592BA29A9000C34437 /* Frameworks */,
+				F19EAF5A2BA29A9000C34437 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F19EAF5E2BA29A9000C34437 /* PBXTargetDependency */,
+			);
+			name = ScreenTimePlaygroundTests;
+			productName = ScreenTimePlaygroundTests;
+			productReference = F19EAF5C2BA29A9000C34437 /* ScreenTimePlaygroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F19EAF652BA29A9000C34437 /* ScreenTimePlaygroundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F19EAF762BA29A9000C34437 /* Build configuration list for PBXNativeTarget "ScreenTimePlaygroundUITests" */;
+			buildPhases = (
+				F19EAF622BA29A9000C34437 /* Sources */,
+				F19EAF632BA29A9000C34437 /* Frameworks */,
+				F19EAF642BA29A9000C34437 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F19EAF682BA29A9000C34437 /* PBXTargetDependency */,
+			);
+			name = ScreenTimePlaygroundUITests;
+			productName = ScreenTimePlaygroundUITests;
+			productReference = F19EAF662BA29A9000C34437 /* ScreenTimePlaygroundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F19EAF442BA29A8F00C34437 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					F19EAF4B2BA29A8F00C34437 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					F19EAF5B2BA29A9000C34437 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F19EAF4B2BA29A8F00C34437;
+					};
+					F19EAF652BA29A9000C34437 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F19EAF4B2BA29A8F00C34437;
+					};
+				};
+			};
+			buildConfigurationList = F19EAF472BA29A8F00C34437 /* Build configuration list for PBXProject "ScreenTimePlayground" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F19EAF432BA29A8F00C34437;
+			productRefGroup = F19EAF4D2BA29A8F00C34437 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F19EAF4B2BA29A8F00C34437 /* ScreenTimePlayground */,
+				F19EAF5B2BA29A9000C34437 /* ScreenTimePlaygroundTests */,
+				F19EAF652BA29A9000C34437 /* ScreenTimePlaygroundUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F19EAF4A2BA29A8F00C34437 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19EAF572BA29A9000C34437 /* Preview Assets.xcassets in Resources */,
+				F19EAF542BA29A9000C34437 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19EAF5A2BA29A9000C34437 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19EAF642BA29A9000C34437 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F19EAF482BA29A8F00C34437 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19EAF522BA29A8F00C34437 /* ContentView.swift in Sources */,
+				F19EAF502BA29A8F00C34437 /* ScreenTimePlaygroundApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19EAF582BA29A9000C34437 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19EAF612BA29A9000C34437 /* ScreenTimePlaygroundTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19EAF622BA29A9000C34437 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19EAF6D2BA29A9000C34437 /* ScreenTimePlaygroundUITestsLaunchTests.swift in Sources */,
+				F19EAF6B2BA29A9000C34437 /* ScreenTimePlaygroundUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F19EAF5E2BA29A9000C34437 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F19EAF4B2BA29A8F00C34437 /* ScreenTimePlayground */;
+			targetProxy = F19EAF5D2BA29A9000C34437 /* PBXContainerItemProxy */;
+		};
+		F19EAF682BA29A9000C34437 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F19EAF4B2BA29A8F00C34437 /* ScreenTimePlayground */;
+			targetProxy = F19EAF672BA29A9000C34437 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F19EAF6E2BA29A9000C34437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F19EAF6F2BA29A9000C34437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F19EAF712BA29A9000C34437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScreenTimePlayground/Preview Content\"";
+				DEVELOPMENT_TEAM = 6883Y2VG3J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.woojinlee.ScreenTimePlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F19EAF722BA29A9000C34437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScreenTimePlayground/Preview Content\"";
+				DEVELOPMENT_TEAM = 6883Y2VG3J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.woojinlee.ScreenTimePlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F19EAF742BA29A9000C34437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6883Y2VG3J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.woojinlee.ScreenTimePlaygroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScreenTimePlayground.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScreenTimePlayground";
+			};
+			name = Debug;
+		};
+		F19EAF752BA29A9000C34437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6883Y2VG3J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.woojinlee.ScreenTimePlaygroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScreenTimePlayground.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScreenTimePlayground";
+			};
+			name = Release;
+		};
+		F19EAF772BA29A9000C34437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6883Y2VG3J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.woojinlee.ScreenTimePlaygroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScreenTimePlayground;
+			};
+			name = Debug;
+		};
+		F19EAF782BA29A9000C34437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6883Y2VG3J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.woojinlee.ScreenTimePlaygroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScreenTimePlayground;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F19EAF472BA29A8F00C34437 /* Build configuration list for PBXProject "ScreenTimePlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F19EAF6E2BA29A9000C34437 /* Debug */,
+				F19EAF6F2BA29A9000C34437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F19EAF702BA29A9000C34437 /* Build configuration list for PBXNativeTarget "ScreenTimePlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F19EAF712BA29A9000C34437 /* Debug */,
+				F19EAF722BA29A9000C34437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F19EAF732BA29A9000C34437 /* Build configuration list for PBXNativeTarget "ScreenTimePlaygroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F19EAF742BA29A9000C34437 /* Debug */,
+				F19EAF752BA29A9000C34437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F19EAF762BA29A9000C34437 /* Build configuration list for PBXNativeTarget "ScreenTimePlaygroundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F19EAF772BA29A9000C34437 /* Debug */,
+				F19EAF782BA29A9000C34437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F19EAF442BA29A8F00C34437 /* Project object */;
+}
